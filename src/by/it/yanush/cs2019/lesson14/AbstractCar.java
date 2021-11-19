@@ -1,0 +1,30 @@
+package by.it.yanush.cs2019.lesson14;
+
+public class AbstractCar {
+    private int speed;
+
+    AbstractCar(int speed) {
+        this.speed = speed;
+    }
+
+    void fire() {
+        System.out.println(this + " включил зажигание");
+    }
+
+    void start() {
+        System.out.println(this + " поехал со скоростью " + speed + " км/ч");
+    }
+
+    void beep() {
+        System.out.println(this + " сигналит: Пи-бип!");
+    }
+
+    void stop() {
+        System.out.println(this + " остановился");
+    }
+
+    @Override
+    public String toString() {
+        return "Автомобиль";
+    }
+}
