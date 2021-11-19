@@ -4,14 +4,14 @@ package by.it.yanush.belh2017.hw.part1;//В переменной n хранит�
 
 
 public class Page38Ex3 {
-	public static void main(String[] args) {
-		double n = 4.34;
-		double n2 = n + 0.5;
-		int n3 = (int) n2;
+    public static void main(String[] args) {
+        double n = 4.34;
+        double n2 = n + 0.5;
+        int n3 = (int) n2;
 
-		System.out.println(n3);
-	
-		//Ctrl Shft / Ctrl Shft \
+        System.out.println(n3);
+
+        //Ctrl Shft / Ctrl Shft \
 		
 		/*	
 		
@@ -20,6 +20,6 @@ public class Page38Ex3 {
 		int p3=(int)p2;
 		System.out.println(p3);
 */
-		
-	}
+
+    }
 }
