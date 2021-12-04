@@ -40,7 +40,7 @@ public class Matrix implements Arifmetica {
 
 	@Override
 	public void com() { 
-		
+
 		
 	}
 

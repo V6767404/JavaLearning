@@ -13,7 +13,7 @@ public class Task31 {
         System.out.println("Веедите любое целое положительное число:");
         x = sc.nextInt();
 
-        for (int i = 1; i < x; i++) {
+        for (int i = 1; i <= x; i++) {
             sum = sum + i;
         }
         System.out.println("сумма всех чисел от 1 до " + x + " :");
